@@ -1,0 +1,67 @@
+/* style for personal page */
+
+
+
+body {
+    background: #485563;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #29323c, #485563);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #29323c, #485563); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.page-body { 
+    height: 700px;
+    background: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: 0 0 10px #000;
+    border-radius: 5px;
+}
+.profile-head {
+    height: 200px;
+    background: white;
+    margin-left: -15px;
+    margin-right: -15px;
+    border-radius: 5px 5px 0 0;
+    background: #4ECDC4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #556270, #4ECDC4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #556270, #4ECDC4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.student-name {
+    position: absolute;
+    font-size: 32px;
+    margin-top: 153px;
+    margin-left: 370px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.student-mail {
+    position: absolute;
+    margin-left: 370px;
+    margin-top: 10px;    
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+}
+.avt-container {
+    position: absolute;
+    margin-top: -160px;
+    margin-left: 110px;
+    border-radius: 50%;
+    height: 240px;
+    width: 240px;
+    border: 20px solid white;
+}
+.profile-avt {
+    position: relative;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+.profile-below-head {
+    margin-top: 20px;
+    margin-left: -15px;
+    margin-right: -15px;
+    height: 100px;
+    background: #4ECDC4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #556270, #4ECDC4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #556270, #4ECDC4); /* W3C, IE 10+ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
