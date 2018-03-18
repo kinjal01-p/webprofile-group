@@ -8,7 +8,7 @@ body {
     background: linear-gradient(to right, #29323c, #485563); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .page-body { 
-    height: 700px;
+    height: 800px;
     background: white;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -22,7 +22,7 @@ body {
     margin-right: -15px;
     border-radius: 5px 5px 0 0;
     background: #4ECDC4;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #556270, #4ECDC4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to left, #556270, #4ECDC4);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to left, #556270, #4ECDC4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .student-name {
@@ -56,12 +56,107 @@ body {
     height: 200px;
     width: 200px;
 }
+.anima-container {
+    height: 20px;
+    background: white;
+}
+.load-anima {
+    position: absolute;
+    height: 20px;
+    width: 10px;
+    background: grey;
+    -webkit-animation: linear 3.5s;  /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation: linear 3.5s;
+    animation-name: mymove;
+    animation-iteration-count: infinite;
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+    0% { left: 8%;}
+    100%{ left : 92%;}
+}
+
+@keyframes mymove {
+    0% { left: 8%;}
+    100%{ left : 92%;}
+}
 .profile-below-head {
-    margin-top: 20px;
     margin-left: -15px;
     margin-right: -15px;
     height: 100px;
     background: #4ECDC4;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #556270, #4ECDC4);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to left, #556270, #4ECDC4); /* W3C, IE 10+ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.profile-body {
+    margin-left: -15px;
+    margin-right: -15px;
+    height: 430px;
+    padding-bottom: 10px;
+    background: #4ECDC4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #556270, #4ECDC4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #556270, #4ECDC4); /* W3C, IE 10+ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.info-container {
+    width: 100%;
+    position: relative;
+    margin-left: 30px!important;
+    display: block;
+    max-height: 380px;
+    overflow: hidden;
+   
+}
+.general-info {
+    width: 31%!important;
+    display: block;
+    height: 370px;
+    background: white;
+}
+.general-info:hover {
+    border-radius: 30px;
+    box-shadow: 0 0 2px #000;    
+}
+.soft-skill-info {
+    width: 31%!important;
+    margin-left: 10px;
+    display: block;
+    height: 370px;
+    background: white;
+    
+}
+.soft-skill-info:hover {
+    border-radius: 30px;
+    box-shadow: 0 0 2px #000;    
+}
+.hard-skill-info {
+    width: 31%!important;
+    margin-left: 10px;
+    display: block;
+    height: 370px;
+    background: white;
+     
+}
+.hard-skill-info:hover {
+    border-radius: 30px;
+    box-shadow: 0 0 2px #000;    
+}
+.info-title {
+    font-size: 28px;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.info-list {
+    margin-left: -10px;
+    list-style: none;
+    position: absolute;
+    margin-top: 65px;
+}
+.info-list li {
+    font-size: 18px;
+    margin-top: 15px;
+}
+.list-keyword {
+    color: #0d70bc;    
 }
