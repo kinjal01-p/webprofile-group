@@ -64,18 +64,113 @@ body {
 .anima-container {
   height: 20px;
   background: white;
+ 
 }
-.load-anima {
+
+
+.load-anima6 {
   position: absolute;
+  margin-left: 100px;
   height: 20px;
   width: 40px;
-  background: green;
+  background-image: url("../res/icongirl.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
   -webkit-animation: linear 8s; /* Safari 4.0 - 8.0 */
   -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
   animation: linear 8s;
   animation-name: mymove;
   animation-iteration-count: infinite;
 }
+
+.load-anima5 {
+  position: absolute;
+  margin-left: 80px;
+  height: 20px;
+  width: 40px;
+  background-image: url("../res/icongirl.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  -webkit-animation: linear 8s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+  animation: linear 8s;
+  animation-name: mymove;
+  animation-iteration-count: infinite;
+}
+
+.load-anima4 {
+  position: absolute;
+  margin-left: 60px;
+  height: 20px;
+  width: 40px;
+  background-image: url("../res/icongirl.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  -webkit-animation: linear 8s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+  animation: linear 8s;
+  animation-name: mymove;
+  animation-iteration-count: infinite;
+}
+
+.load-anima3 {
+  position: absolute;
+  height: 20px;
+  width: 40px;
+  background-image: url("../res/iconmeo.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  -webkit-animation: linear 8s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+  animation: linear 8s;
+  animation-name: mymove;
+  animation-iteration-count: infinite;
+}
+
+.load-anima2 {
+  position: absolute;
+  margin-left: 40px;
+  height: 20px;
+  width: 40px;
+  background-image: url("../res/iconmeo.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  -webkit-animation: linear 8s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+  animation: linear 8s;
+  animation-name: mymove;
+  animation-iteration-count: infinite;
+}
+
+.load-anima1 {
+  position: absolute;
+  margin-left: 20px;
+  height: 20px;
+  width: 40px;
+  background-image: url("../res/iconmeo.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  -webkit-animation: linear 8s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+  animation: linear 8s;
+  animation-name: mymove;
+  animation-iteration-count: infinite;
+}
+
+.load-anima {
+  position: absolute;
+  height: 20px;
+  width: 40px;
+  background-image: url("../res/iconmeo.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  -webkit-animation: linear 8s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+  animation: linear 8s;
+  animation-name: mymove;
+  animation-iteration-count: infinite;
+}
+
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes mymove {
   0% {
