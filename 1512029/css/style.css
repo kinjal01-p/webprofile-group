@@ -1,0 +1,218 @@
+body {
+  background: #485563; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #29323c,
+    #485563
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #29323c,
+    #485563
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.page-body {
+  height: 830px;
+  background: white;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  box-shadow: 0 0 10px #000;
+  border-radius: 5px;
+}
+.profile-head {
+  height: 200px;
+  background: white;
+  margin-left: -15px;
+  margin-right: -15px;
+  border-radius: 5px 5px 0 0;
+  background: #4ecdc4;
+  background-image: url("../res/background.png");
+}
+.student-name {
+  position: absolute;
+  font-size: 32px;
+  margin-top: 153px;
+  margin-left: 370px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.student-mail {
+  position: absolute;
+  margin-left: 370px;
+  margin-top: 10px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 28px;
+}
+.avt-container {
+  position: absolute;
+  margin-top: -160px;
+  margin-left: 110px;
+  border-radius: 50%;
+  height: 240px;
+  width: 240px;
+  border: 20px solid white;
+}
+.profile-avt {
+  position: relative;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
+.anima-container {
+  height: 20px;
+  background: white;
+}
+.load-anima {
+  position: absolute;
+  height: 20px;
+  width: 40px;
+  background: green;
+  -webkit-animation: linear 8s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+  animation: linear 8s;
+  animation-name: mymove;
+  animation-iteration-count: infinite;
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+  0% {
+    left: 20%;
+  }
+  100% {
+    left: 80%;
+  }
+}
+@keyframes mymove {
+  0% {
+    left: 20%;
+  }
+  100% {
+    left: 80%;
+  }
+}
+.profile-below-head {
+  margin-left: -15px;
+  margin-right: -15px;
+  height: 100px;
+  background: #4ecdc4; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #556270, #4ecdc4);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #556270,
+    #4ecdc4
+  ); /* W3C, IE 10+ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.profile-body {
+  margin-left: -15px;
+  margin-right: -15px;
+  height: 430px;
+  padding-bottom: 10px;
+  background: #4ecdc4; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #556270,
+    #4ecdc4
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #556270,
+    #4ecdc4
+  ); /* W3C, IE 10+ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.profile-footer {
+  height: 50px;
+  margin: 5px;
+}
+.info-container {
+  width: 100%;
+  position: relative;
+  margin-left: 30px !important;
+  display: block;
+  max-height: 380px;
+  overflow: hidden;
+}
+.general-info {
+  width: 31% !important;
+  display: block;
+  height: 370px;
+  background: white;
+}
+.general-info:hover {
+  border-radius: 30px;
+  box-shadow: 0 0 2px #000;
+}
+.soft-skill-info {
+  width: 31% !important;
+  margin-left: 10px;
+  display: block;
+  height: 370px;
+  background: white;
+}
+.soft-skill-info:hover {
+  border-radius: 30px;
+  box-shadow: 0 0 2px #000;
+}
+.hard-skill-info {
+  width: 31% !important;
+  margin-left: 10px;
+  display: block;
+  height: 370px;
+  background: white;
+}
+.hard-skill-info:hover {
+  border-radius: 30px;
+  box-shadow: 0 0 2px #000;
+}
+.hard-skill-info .info-list {
+  margin-top: 65px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.info-title {
+  font-size: 28px;
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.general-info .info-list {
+  margin-left: -30px;
+  list-style: none;
+  position: absolute;
+  margin-top: 65px;
+}
+.soft-skill-info .info-list {
+  margin-top: 65px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.info-list li {
+  font-size: 18px;
+  margin-top: 15px;
+}
+.list-keyword {
+  color: #0d70bc;
+}
+.progress {
+  position: relative;
+  height: 4px;
+  display: block;
+  width: 100%;
+  background-color: #acece6;
+  border-radius: 2px;
+  /* margin: 0.5rem 0 1rem 0; */
+  overflow: hidden;
+}
+.progress .determinate {
+  position: absolute;
+  background-color: inherit;
+  top: 0;
+  bottom: 0;
+  background-color: #26a69a;
+  -webkit-transition: width 0.3s linear;
+  -moz-transition: width 0.3s linear;
+  -o-transition: width 0.3s linear;
+  -ms-transition: width 0.3s linear;
+  transition: width 0.3s linear;
+}
