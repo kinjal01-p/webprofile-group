@@ -1,0 +1,144 @@
+body {
+    background-color: #f5f5f5;
+    font-family: 'Hind', sans-serif;
+    font-size: 16px;
+    line-height: 1.8em;
+    color: #3d3d50;
+    font-weight: 300;    
+    box-sizing: border-box;
+}
+p {
+
+    margin-bottom: 20px;
+}
+
+h1{
+    line-height: 1;
+    margin: 0 0 15px;    
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 25px;
+    line-height: 1.8em;
+    font-weight: 700;
+    color: grey;
+}
+
+h3 {
+    font-size: 20px;
+    line-height: 1.5em;
+    font-weight: bold;
+    margin: 0;
+}
+
+h4 ,h5{
+    font-size: 15px;
+    line-height: 1.8em;
+    font-weight: 500;
+    color: #1abc9c;
+    padding: 0px;
+    margin:0px;
+}
+h6, h5{
+    color: white;
+}
+
+.about-me{
+    color: white;
+    overflow: hidden;
+    width: 240px;
+    margin-bottom: 30px;
+}
+
+img {
+    margin-bottom: 30px;
+    width: 240px;
+    height: 240px;
+    vertical-align: middle;
+}
+
+.container {
+    margin: 50px 150px;
+}
+
+
+aside {
+    background: #1abc9c;
+    position: absolute;
+  
+    height: 100%;   
+    padding: 20px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16),
+    0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    position: fixed;
+}
+
+section{
+     
+   margin-left: 10px;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16),
+    0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+ul{
+    margin: 0px;
+    padding: 0;
+}
+li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+.card-header,
+.card-body ,
+.card-footer{
+    padding: 30px 50px 0 100px;
+    
+}
+i{
+    margin: 0;
+}
+#phone{
+    margin: 0 0 0 20px;
+   float: right;
+}
+
+#facebook{
+  margin: 0 0 0 23px;
+  float: right;
+}
+
+#github {
+    margin: 0 0 0 20px;
+    float: right;
+}
+
+#mail
+{
+    margin: 0 0 0 16px;
+    float: right;
+}
+
+.progress-title{
+    font-size: 15px;
+    font-weight: 400;
+    display: inline-block;
+    margin-bottom: 5px;
+    margin: 0;
+}
+.content-item{
+    margin-bottom: 10px;
+}
+.fa-2x{
+    margin: 0px;    
+    float:left;
+    margin-left: 40px;
+}
